@@ -1,19 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UpdateWorld : MonoBehaviour
-{
+public class UpdateWorld : MonoBehaviour {
+
+    // Storage for the states
     public Text states;
 
-    // Update is called once per frame
-    void LateUpdate()
-    {
-        Dictionary<string, int> worldstates = GWorld.Instance.GetWorld().GetStates();
+    void LateUpdate() {
+
+        // Dictionary of states
+        Dictionary<string, int> worldStates = GWorld.Instance.GetWorld().GetStates();
+        // Clear out the states text
         states.text = "";
-        foreach (KeyValuePair<string, int> s in worldstates)
-        {
+        // Cycle through them all and store in states.text
+        foreach (KeyValuePair<string, int> s in worldStates) {
+
             states.text += s.Key + ", " + s.Value + "\n";
         }
     }
