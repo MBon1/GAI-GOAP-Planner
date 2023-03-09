@@ -23,7 +23,7 @@ public sealed class GWorld
 
         if (cubes.Length > 0)
         {
-            world.ModifyState("FreeCublicle", cubes.Length);
+            world.ModifyState("FreeCubicle", cubes.Length);
         }
     }
 
