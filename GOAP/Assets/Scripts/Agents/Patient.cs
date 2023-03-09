@@ -11,10 +11,4 @@ public class Patient : GAgent
         SubGoal s1 = new SubGoal("isWaiting", 1, true);
         goals.Add(s1, 3);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
