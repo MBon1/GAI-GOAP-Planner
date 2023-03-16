@@ -14,10 +14,16 @@
         // Add it to the goals
         goals.Add(s2, 5);
 
+        // Set up the subgoal checkedOut"
+        SubGoal s4 = new SubGoal("checkedOut", 1, true);
+        // Add it to the goals
+        goals.Add(s4, 1);
+
+
         // Set up the subgoal "isHome"
         SubGoal s3 = new SubGoal("isHome", 1, true);
         // Add it to the goals
-        goals.Add(s3, 1);
+        goals.Add(s3, 2);
     }
 
 }
