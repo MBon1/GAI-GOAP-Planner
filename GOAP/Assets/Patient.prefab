@@ -2065,7 +2065,7 @@ MonoBehaviour:
   actionName: Go To Check Out
   cost: 1
   target: {fileID: 0}
-  targetTag: Reception
+  targetTag: CheckOut
   duration: 1
   preConditions:
   - key: isCured
