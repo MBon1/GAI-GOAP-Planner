@@ -1,5 +1,8 @@
-# GAI-GOAP-Planner
-Assignment for Game AI (S23) on the GOAP AI technique using Unity.
+================================================================
+
++-------------------------+
+| GOAP PLANNER ASSIGNMENT |
++-------------------------+
 
 ================================================================
 
@@ -12,6 +15,9 @@ GROUP MEMBERS
 ================================================================
 
 LINKS
+
+GitHub
+  https://github.com/MBon1/GAI-GOAP-Planner.git
 
 WebGL Build
   https://bonnem.itch.io/goap-planner-bonnecaze-hung-stapleton 
