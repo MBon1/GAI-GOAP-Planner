@@ -11,6 +11,8 @@ TagManager:
   - Cubicle
   - Reception
   - CheckOut
+  - HeadClinician
+  - HeadClinicianDesk
   layers:
   - Default
   - TransparentFX
